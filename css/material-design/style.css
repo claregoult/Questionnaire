@@ -15,7 +15,8 @@
 
 .q-label {
 	color:inherit; 
-	font-size:0.875rem;
+	/*font-size:0.875rem;*/
+    font-size:1rem;
 	margin-bottom: 10px;
 }
 
@@ -52,7 +53,8 @@ textarea {
 }
 label {
 	margin-bottom:5px;
-	font-size: 0.875rem;
+	/*font-size: 0.875rem;*/
+    font-size:1rem;
 }
 
 [type='checkbox'] + label, [type='radio'] + label{
@@ -271,4 +273,13 @@ border:1px solid #f1f1f1
 button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
     background: #F9D43D;
     color:black;
+}
+
+.btn-large {
+    margin:20px auto;
+}
+
+.input-group-label label {
+    font-size:1rem;
+    line-height: 1rem;
 }
