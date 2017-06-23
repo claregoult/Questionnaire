@@ -48,7 +48,7 @@ input[readonly] {
 	cursor: none;
 }
 textarea {
-	min-height:5rem;
+	min-height:10rem;
 }
 label {
 	margin-bottom:5px;
